@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    一个优雅的模态弹出转场, 有暗影透明遮盖,可调节 屏幕几分之几范围显示
                    DESC
 
   s.homepage     = "https://github.com/sunyazhou13/SlideInPresentation"
@@ -38,7 +39,10 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = {:type => 'Proprietary', :text => <<-LICENSE
+      Copyright 2017 sunyazhou.com. All rights reserved.
+      LICENSE
+    }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +83,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com:sunyazhou13/SlideInPresentation.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/sunyazhou13/SlideInPresentation.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
