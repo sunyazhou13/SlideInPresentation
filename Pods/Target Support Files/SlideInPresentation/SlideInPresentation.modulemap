@@ -1,0 +1,6 @@
+framework module SlideInPresentation {
+  umbrella header "SlideInPresentation-umbrella.h"
+
+  export *
+  module * { export * }
+}

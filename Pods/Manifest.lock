@@ -1,3 +1,12 @@
-PODFILE CHECKSUM: 3bce260898aebe070ea9e11a51cad7cf574044e7
+PODS:
+  - SlideInPresentation (1.0.0)
+
+DEPENDENCIES:
+  - SlideInPresentation
+
+SPEC CHECKSUMS:
+  SlideInPresentation: de8dbcb47b85adc6f5fc932da6c5629f78ecf978
+
+PODFILE CHECKSUM: f0a116316fad6c3f768a5f802c5ef16b6d52735d
 
 COCOAPODS: 1.2.1

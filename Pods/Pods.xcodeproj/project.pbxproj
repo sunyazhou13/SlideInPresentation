@@ -7,56 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8AB90D0BF34D739CE6B5B048940D1CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EED5B59663CA42B2AA87E5C3056C9E4E /* Pods-UIPresentationControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB674E79007FC17928545A54208A2E26 /* Pods-UIPresentationControllerDemo-dummy.m */; };
+		0B94D54D4128A1300713A8875AC997F1 /* ScreeRotateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1022EA42FE9B5C166896F77F57E27436 /* ScreeRotateViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FD7DFE8365D0CD8A720D0ECD16D43E /* SlideInPresentation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF65BA2C63655ED33C299028127F3AD1 /* SlideInPresentation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311938B2C0CEA3CFF30CFD5F8DEDA66C /* SlideInPresentationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBCA904474D45AB3A1EB5FAD01C21B0 /* SlideInPresentationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D298E5F9D43496D726A659F872C3A4 /* ScreeRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB27F1E710D7D62FBD7609A20198420 /* ScreeRotateViewController.m */; };
+		406CD6573F49AAE551BBD0F8CF8B70A0 /* SlideInPresentationAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 830F0517E7C828CD0FB71CCB8E9A5D2C /* SlideInPresentationAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847862F88B443E87A7D2AB6AFFC567AB /* SlideInPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E526F9CF466D5AA0B2C88C7D015FC6E /* SlideInPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E62E158B4C07DA406375F0CA5DB27AE /* ScreeRotateViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0C85B69C19018D9C053720A08D99EEC9 /* ScreeRotateViewController.xib */; };
+		ACCF4D40371638AE36ABD7462CC3CBFB /* SlideInPresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7077BC4E97E1B14D8EC2BD3006191 /* SlideInPresentationAnimator.m */; };
+		B53B73BD93A18AECB796F1D5344D2B19 /* SlideInPresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E0EFBD9FC7B3DC648B1FF596C9A900 /* SlideInPresentationManager.m */; };
+		BF4870C064C686DE5DAF92C9A586CC73 /* Pods-UIPresentationControllerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB50AE4ED069631D9D304A12E77262D /* Pods-UIPresentationControllerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D22B4E875AFB2B13FE3169D339B33417 /* SlideInPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D750F4AB980DE218A5D2E53894088C9 /* SlideInPresentationController.m */; };
+		D6B5720795844AB2D704C5E24463C10B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E8828F8AD10A5180DDD8E32FB8976780 /* SlideInPresentation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D64B49C0E9DE1A03D667FDCE22048F7 /* SlideInPresentation-dummy.m */; };
+		F5428F97507C33991352A8412B99CAF3 /* Pods-UIPresentationControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC436E45075AC1868EFEEFC61196BCB /* Pods-UIPresentationControllerDemo-dummy.m */; };
+		F59607559B6421485950A5745091066E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		96AC64AA7F6DCF461469D55B31D2A50E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A63407DD0BB8B0FCD48FA2DCD71200D;
+			remoteInfo = SlideInPresentation;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		6168831CD93291F5182EC51906B07D55 /* Pods-UIPresentationControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPresentationControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0C85B69C19018D9C053720A08D99EEC9 /* ScreeRotateViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ScreeRotateViewController.xib; path = SlideInPresentation/ScreeRotateViewController.xib; sourceTree = "<group>"; };
+		0E0E85D1861C0670AB6FBE5663BE9B81 /* Pods-UIPresentationControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIPresentationControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1022EA42FE9B5C166896F77F57E27436 /* ScreeRotateViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreeRotateViewController.h; path = SlideInPresentation/ScreeRotateViewController.h; sourceTree = "<group>"; };
+		2127598BD1D4BFA1408AFD2428460B60 /* SlideInPresentation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideInPresentation-prefix.pch"; sourceTree = "<group>"; };
+		3AB50AE4ED069631D9D304A12E77262D /* Pods-UIPresentationControllerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIPresentationControllerDemo-umbrella.h"; sourceTree = "<group>"; };
+		3B76402716242A7C5E326E8AB651DE37 /* Pods-UIPresentationControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIPresentationControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		438E25D59D1FDC0EE34FE5CDF811ECE6 /* SlideInPresentation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SlideInPresentation.modulemap; sourceTree = "<group>"; };
+		4E526F9CF466D5AA0B2C88C7D015FC6E /* SlideInPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideInPresentationController.h; path = SlideInPresentation/SlideInPresentationController.h; sourceTree = "<group>"; };
+		528DECE220AD772EDAEDD4928202D5EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB27F1E710D7D62FBD7609A20198420 /* ScreeRotateViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ScreeRotateViewController.m; path = SlideInPresentation/ScreeRotateViewController.m; sourceTree = "<group>"; };
+		64FD8C98B7A7090E525DE2A91CF34350 /* Pods-UIPresentationControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPresentationControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		696E24C1FDB50CBA01C7BC187FCE7D40 /* Pods-UIPresentationControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPresentationControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		764E24F359AFB6A7AD91176605F1C985 /* Pods-UIPresentationControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIPresentationControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8E2708EED3DB79F3CC4ACE0A57D48075 /* Pods-UIPresentationControllerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIPresentationControllerDemo-resources.sh"; sourceTree = "<group>"; };
+		722935DD3E52655D18922E95740B666B /* Pods-UIPresentationControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPresentationControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7236DE2AFD11E6E4F2EB9413D9C29C27 /* Pods_UIPresentationControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIPresentationControllerDemo.framework; path = "Pods-UIPresentationControllerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC7077BC4E97E1B14D8EC2BD3006191 /* SlideInPresentationAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideInPresentationAnimator.m; path = SlideInPresentation/SlideInPresentationAnimator.m; sourceTree = "<group>"; };
+		7D64B49C0E9DE1A03D667FDCE22048F7 /* SlideInPresentation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideInPresentation-dummy.m"; sourceTree = "<group>"; };
+		7D750F4AB980DE218A5D2E53894088C9 /* SlideInPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideInPresentationController.m; path = SlideInPresentation/SlideInPresentationController.m; sourceTree = "<group>"; };
+		81BC52AE756957021A3D9051BBBA1A97 /* Pods-UIPresentationControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIPresentationControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		830F0517E7C828CD0FB71CCB8E9A5D2C /* SlideInPresentationAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideInPresentationAnimator.h; path = SlideInPresentation/SlideInPresentationAnimator.h; sourceTree = "<group>"; };
+		8CBCA904474D45AB3A1EB5FAD01C21B0 /* SlideInPresentationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideInPresentationManager.h; path = SlideInPresentation/SlideInPresentationManager.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A142BF5EE9B20E07F821D6697E01AA11 /* libPods-UIPresentationControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-UIPresentationControllerDemo.a"; path = "libPods-UIPresentationControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1DC40681CFA6EBF7140D49E708DABE7 /* Pods-UIPresentationControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIPresentationControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		B92816EA338469B986A40CEF11B2B465 /* Pods-UIPresentationControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIPresentationControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		BB674E79007FC17928545A54208A2E26 /* Pods-UIPresentationControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIPresentationControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		94E08972ABA13D97681AB6FF87645B0C /* Pods-UIPresentationControllerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIPresentationControllerDemo.modulemap"; sourceTree = "<group>"; };
+		B5C907B8A5523373A9D2B192DCAC96DE /* SlideInPresentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideInPresentation.framework; path = SlideInPresentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC436E45075AC1868EFEEFC61196BCB /* Pods-UIPresentationControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIPresentationControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		C9715AE58FC2E5C12983EB89AB09C49B /* SlideInPresentation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideInPresentation.xcconfig; sourceTree = "<group>"; };
+		D0E0EFBD9FC7B3DC648B1FF596C9A900 /* SlideInPresentationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideInPresentationManager.m; path = SlideInPresentation/SlideInPresentationManager.m; sourceTree = "<group>"; };
+		DF65BA2C63655ED33C299028127F3AD1 /* SlideInPresentation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideInPresentation-umbrella.h"; sourceTree = "<group>"; };
+		E3ACCD17AD8E1760D2172495F2D68362 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74CBD31879105765690E1E02C63FB53 /* Pods-UIPresentationControllerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIPresentationControllerDemo-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D3B5E39E24D25BC5C7AC418CB2C548B /* Frameworks */ = {
+		0716C0560BC71D97528EF6B46A64BE3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8AB90D0BF34D739CE6B5B048940D1CF /* Foundation.framework in Frameworks */,
+				F59607559B6421485950A5745091066E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2D65643F57992444DD6E68D37515E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B5720795844AB2D704C5E24463C10B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08E66DF1AA427187ED9F9FC1FEC32644 /* Pods-UIPresentationControllerDemo */ = {
+		1AF229981ADCB97E7042D094BE4FEB38 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				764E24F359AFB6A7AD91176605F1C985 /* Pods-UIPresentationControllerDemo-acknowledgements.markdown */,
-				A1DC40681CFA6EBF7140D49E708DABE7 /* Pods-UIPresentationControllerDemo-acknowledgements.plist */,
-				BB674E79007FC17928545A54208A2E26 /* Pods-UIPresentationControllerDemo-dummy.m */,
-				B92816EA338469B986A40CEF11B2B465 /* Pods-UIPresentationControllerDemo-frameworks.sh */,
-				8E2708EED3DB79F3CC4ACE0A57D48075 /* Pods-UIPresentationControllerDemo-resources.sh */,
-				6168831CD93291F5182EC51906B07D55 /* Pods-UIPresentationControllerDemo.debug.xcconfig */,
-				696E24C1FDB50CBA01C7BC187FCE7D40 /* Pods-UIPresentationControllerDemo.release.xcconfig */,
+				587FE3513A173629F2D49EA9B0C050E5 /* Pods-UIPresentationControllerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		587FE3513A173629F2D49EA9B0C050E5 /* Pods-UIPresentationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E3ACCD17AD8E1760D2172495F2D68362 /* Info.plist */,
+				94E08972ABA13D97681AB6FF87645B0C /* Pods-UIPresentationControllerDemo.modulemap */,
+				81BC52AE756957021A3D9051BBBA1A97 /* Pods-UIPresentationControllerDemo-acknowledgements.markdown */,
+				3B76402716242A7C5E326E8AB651DE37 /* Pods-UIPresentationControllerDemo-acknowledgements.plist */,
+				BFC436E45075AC1868EFEEFC61196BCB /* Pods-UIPresentationControllerDemo-dummy.m */,
+				0E0E85D1861C0670AB6FBE5663BE9B81 /* Pods-UIPresentationControllerDemo-frameworks.sh */,
+				F74CBD31879105765690E1E02C63FB53 /* Pods-UIPresentationControllerDemo-resources.sh */,
+				3AB50AE4ED069631D9D304A12E77262D /* Pods-UIPresentationControllerDemo-umbrella.h */,
+				722935DD3E52655D18922E95740B666B /* Pods-UIPresentationControllerDemo.debug.xcconfig */,
+				64FD8C98B7A7090E525DE2A91CF34350 /* Pods-UIPresentationControllerDemo.release.xcconfig */,
 			);
 			name = "Pods-UIPresentationControllerDemo";
 			path = "Target Support Files/Pods-UIPresentationControllerDemo";
 			sourceTree = "<group>";
 		};
-		72F5BA61034B5E091D0B08950ECD1D90 /* Targets Support Files */ = {
+		6803EA428F536860C8EB2E69DCFCD3EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08E66DF1AA427187ED9F9FC1FEC32644 /* Pods-UIPresentationControllerDemo */,
+				7236DE2AFD11E6E4F2EB9413D9C29C27 /* Pods_UIPresentationControllerDemo.framework */,
+				B5C907B8A5523373A9D2B192DCAC96DE /* SlideInPresentation.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B00CF3B15413F95272EF4BCE6E5E6CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				528DECE220AD772EDAEDD4928202D5EB /* Info.plist */,
+				438E25D59D1FDC0EE34FE5CDF811ECE6 /* SlideInPresentation.modulemap */,
+				C9715AE58FC2E5C12983EB89AB09C49B /* SlideInPresentation.xcconfig */,
+				7D64B49C0E9DE1A03D667FDCE22048F7 /* SlideInPresentation-dummy.m */,
+				2127598BD1D4BFA1408AFD2428460B60 /* SlideInPresentation-prefix.pch */,
+				DF65BA2C63655ED33C299028127F3AD1 /* SlideInPresentation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlideInPresentation";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -64,17 +140,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8B4C25ECDFF4FBAABD0A537EFAFA3E1F /* Products */,
-				72F5BA61034B5E091D0B08950ECD1D90 /* Targets Support Files */,
+				A7D3691ED6CB88B143641889259F20F1 /* Pods */,
+				6803EA428F536860C8EB2E69DCFCD3EC /* Products */,
+				1AF229981ADCB97E7042D094BE4FEB38 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8B4C25ECDFF4FBAABD0A537EFAFA3E1F /* Products */ = {
+		A7D3691ED6CB88B143641889259F20F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A142BF5EE9B20E07F821D6697E01AA11 /* libPods-UIPresentationControllerDemo.a */,
+				CB4F28DEAB7B64B4457A3A0383285A63 /* SlideInPresentation */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -83,6 +160,24 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB4F28DEAB7B64B4457A3A0383285A63 /* SlideInPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				1022EA42FE9B5C166896F77F57E27436 /* ScreeRotateViewController.h */,
+				5AB27F1E710D7D62FBD7609A20198420 /* ScreeRotateViewController.m */,
+				0C85B69C19018D9C053720A08D99EEC9 /* ScreeRotateViewController.xib */,
+				830F0517E7C828CD0FB71CCB8E9A5D2C /* SlideInPresentationAnimator.h */,
+				7CC7077BC4E97E1B14D8EC2BD3006191 /* SlideInPresentationAnimator.m */,
+				4E526F9CF466D5AA0B2C88C7D015FC6E /* SlideInPresentationController.h */,
+				7D750F4AB980DE218A5D2E53894088C9 /* SlideInPresentationController.m */,
+				8CBCA904474D45AB3A1EB5FAD01C21B0 /* SlideInPresentationManager.h */,
+				D0E0EFBD9FC7B3DC648B1FF596C9A900 /* SlideInPresentationManager.m */,
+				7B00CF3B15413F95272EF4BCE6E5E6CE /* Support Files */,
+			);
+			name = SlideInPresentation;
+			path = SlideInPresentation;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -95,22 +190,64 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		ACE69583562F296B493E5FF629FB8978 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4870C064C686DE5DAF92C9A586CC73 /* Pods-UIPresentationControllerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA00BF6130C590463B88498D9DBF5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B94D54D4128A1300713A8875AC997F1 /* ScreeRotateViewController.h in Headers */,
+				27FD7DFE8365D0CD8A720D0ECD16D43E /* SlideInPresentation-umbrella.h in Headers */,
+				406CD6573F49AAE551BBD0F8CF8B70A0 /* SlideInPresentationAnimator.h in Headers */,
+				847862F88B443E87A7D2AB6AFFC567AB /* SlideInPresentationController.h in Headers */,
+				311938B2C0CEA3CFF30CFD5F8DEDA66C /* SlideInPresentationManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		40261D72B0AFD8E28105675EB6D2EE22 /* Pods-UIPresentationControllerDemo */ = {
+		6A67EA639867E33F8AAC2627E0B026E1 /* Pods-UIPresentationControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90C5B676C2B5C912DAC83E6C4D782730 /* Build configuration list for PBXNativeTarget "Pods-UIPresentationControllerDemo" */;
+			buildConfigurationList = A8A6C200DB6BB7DF77A28F3423BD9102 /* Build configuration list for PBXNativeTarget "Pods-UIPresentationControllerDemo" */;
 			buildPhases = (
-				BCFF8E580AD6A6B59216A0170D5AAB13 /* Sources */,
-				8D3B5E39E24D25BC5C7AC418CB2C548B /* Frameworks */,
+				10FA3489A258293C0B4D02E87E06E9D8 /* Sources */,
+				DA2D65643F57992444DD6E68D37515E8 /* Frameworks */,
+				ACE69583562F296B493E5FF629FB8978 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C249C6D8C3EB075255C85CAA86F512C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIPresentationControllerDemo";
+			productName = "Pods-UIPresentationControllerDemo";
+			productReference = 7236DE2AFD11E6E4F2EB9413D9C29C27 /* Pods_UIPresentationControllerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A63407DD0BB8B0FCD48FA2DCD71200D /* SlideInPresentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73E84D9727F4C2CD6470D81D492CD3E /* Build configuration list for PBXNativeTarget "SlideInPresentation" */;
+			buildPhases = (
+				8D34C4A375A0CEA9B0B0E454D9C3BA76 /* Sources */,
+				0716C0560BC71D97528EF6B46A64BE3D /* Frameworks */,
+				B6CA00BF6130C590463B88498D9DBF5D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-UIPresentationControllerDemo";
-			productName = "Pods-UIPresentationControllerDemo";
-			productReference = A142BF5EE9B20E07F821D6697E01AA11 /* libPods-UIPresentationControllerDemo.a */;
-			productType = "com.apple.product-type.library.static";
+			name = SlideInPresentation;
+			productName = SlideInPresentation;
+			productReference = B5C907B8A5523373A9D2B192DCAC96DE /* SlideInPresentation.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -129,28 +266,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8B4C25ECDFF4FBAABD0A537EFAFA3E1F /* Products */;
+			productRefGroup = 6803EA428F536860C8EB2E69DCFCD3EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40261D72B0AFD8E28105675EB6D2EE22 /* Pods-UIPresentationControllerDemo */,
+				6A67EA639867E33F8AAC2627E0B026E1 /* Pods-UIPresentationControllerDemo */,
+				7A63407DD0BB8B0FCD48FA2DCD71200D /* SlideInPresentation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BCFF8E580AD6A6B59216A0170D5AAB13 /* Sources */ = {
+		10FA3489A258293C0B4D02E87E06E9D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED5B59663CA42B2AA87E5C3056C9E4E /* Pods-UIPresentationControllerDemo-dummy.m in Sources */,
+				F5428F97507C33991352A8412B99CAF3 /* Pods-UIPresentationControllerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D34C4A375A0CEA9B0B0E454D9C3BA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D298E5F9D43496D726A659F872C3A4 /* ScreeRotateViewController.m in Sources */,
+				8E62E158B4C07DA406375F0CA5DB27AE /* ScreeRotateViewController.xib in Sources */,
+				E8828F8AD10A5180DDD8E32FB8976780 /* SlideInPresentation-dummy.m in Sources */,
+				ACCF4D40371638AE36ABD7462CC3CBFB /* SlideInPresentationAnimator.m in Sources */,
+				D22B4E875AFB2B13FE3169D339B33417 /* SlideInPresentationController.m in Sources */,
+				B53B73BD93A18AECB796F1D5344D2B19 /* SlideInPresentationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C249C6D8C3EB075255C85CAA86F512C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlideInPresentation;
+			target = 7A63407DD0BB8B0FCD48FA2DCD71200D /* SlideInPresentation */;
+			targetProxy = 96AC64AA7F6DCF461469D55B31D2A50E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -194,30 +354,75 @@
 			};
 			name = Release;
 		};
-		2E5FEF291C4C41017CEA46AF52F711CD /* Release */ = {
+		5592CA4C061206D08FC0E5CCE29545A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 696E24C1FDB50CBA01C7BC187FCE7D40 /* Pods-UIPresentationControllerDemo.release.xcconfig */;
+			baseConfigurationReference = 64FD8C98B7A7090E525DE2A91CF34350 /* Pods-UIPresentationControllerDemo.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIPresentationControllerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIPresentationControllerDemo/Pods-UIPresentationControllerDemo.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_UIPresentationControllerDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		7D144F724433A09597E3476A57631255 /* Debug */ = {
+		8D36652388323C4058667CC198F9D186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9715AE58FC2E5C12983EB89AB09C49B /* SlideInPresentation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideInPresentation/SlideInPresentation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideInPresentation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideInPresentation/SlideInPresentation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SlideInPresentation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -265,26 +470,71 @@
 			};
 			name = Debug;
 		};
-		D054248A201E9BCDE56FD81BAF41F13A /* Debug */ = {
+		C3C2C975A3751F8CE03525377CD08DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6168831CD93291F5182EC51906B07D55 /* Pods-UIPresentationControllerDemo.debug.xcconfig */;
+			baseConfigurationReference = 722935DD3E52655D18922E95740B666B /* Pods-UIPresentationControllerDemo.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = "Target Support Files/Pods-UIPresentationControllerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIPresentationControllerDemo/Pods-UIPresentationControllerDemo.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_UIPresentationControllerDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB5409CA23E6452AC4368CF02AA55AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9715AE58FC2E5C12983EB89AB09C49B /* SlideInPresentation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideInPresentation/SlideInPresentation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideInPresentation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideInPresentation/SlideInPresentation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlideInPresentation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -294,17 +544,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D144F724433A09597E3476A57631255 /* Debug */,
-				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90C5B676C2B5C912DAC83E6C4D782730 /* Build configuration list for PBXNativeTarget "Pods-UIPresentationControllerDemo" */ = {
+		A8A6C200DB6BB7DF77A28F3423BD9102 /* Build configuration list for PBXNativeTarget "Pods-UIPresentationControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D054248A201E9BCDE56FD81BAF41F13A /* Debug */,
-				2E5FEF291C4C41017CEA46AF52F711CD /* Release */,
+				C3C2C975A3751F8CE03525377CD08DA3 /* Debug */,
+				5592CA4C061206D08FC0E5CCE29545A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73E84D9727F4C2CD6470D81D492CD3E /* Build configuration list for PBXNativeTarget "SlideInPresentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5409CA23E6452AC4368CF02AA55AB6 /* Debug */,
+				8D36652388323C4058667CC198F9D186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
