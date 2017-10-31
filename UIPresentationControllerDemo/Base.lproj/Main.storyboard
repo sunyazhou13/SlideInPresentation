@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HNP-AI-VMJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-cover2" translatesAutoresizingMaskIntoConstraints="NO" id="meD-xg-yQP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzV-en-28W">
+                                <rect key="frame" x="120" y="166" width="70" height="48"/>
+                                <color key="backgroundColor" red="0.96186810730000005" green="0.18073081969999999" blue="0.306013912" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="rhT-q5-Joq"/>
+                                </constraints>
+                                <state key="normal" title="上弹"/>
+                                <connections>
+                                    <action selector="presentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VTJ-LH-4vg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bz2-Au-HF6">
+                                <rect key="frame" x="42" y="166" width="70" height="48"/>
+                                <color key="backgroundColor" red="0.96186810730000005" green="0.18073081969999999" blue="0.306013912" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="H8a-4N-hXk"/>
+                                </constraints>
+                                <state key="normal" title="左弹"/>
+                                <connections>
+                                    <action selector="presentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ccj-Ye-gVF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osI-wb-Vqa">
+                                <rect key="frame" x="198" y="166" width="70" height="48"/>
+                                <color key="backgroundColor" red="0.96186810730000005" green="0.18073081969999999" blue="0.306013912" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="5iz-Tj-oyQ"/>
+                                </constraints>
+                                <state key="normal" title="右弹"/>
+                                <connections>
+                                    <action selector="presentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QcI-UE-kzC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwx-3a-FRO">
+                                <rect key="frame" x="276" y="166" width="70" height="48"/>
+                                <color key="backgroundColor" red="0.96186810730000005" green="0.18073081969999999" blue="0.306013912" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="下弹"/>
+                                <connections>
+                                    <action selector="presentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JWd-Sc-kOD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="meD-xg-yQP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1AM-eB-ZaM"/>
+                            <constraint firstItem="Bz2-Au-HF6" firstAttribute="baseline" secondItem="MzV-en-28W" secondAttribute="firstBaseline" id="9y7-iU-3PM"/>
+                            <constraint firstItem="osI-wb-Vqa" firstAttribute="baseline" secondItem="cwx-3a-FRO" secondAttribute="firstBaseline" id="Dpv-BF-o6n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cwx-3a-FRO" secondAttribute="trailing" constant="29" id="EJ8-8x-XsB"/>
+                            <constraint firstItem="meD-xg-yQP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ho0-sl-IwH"/>
+                            <constraint firstItem="Bz2-Au-HF6" firstAttribute="top" secondItem="MzV-en-28W" secondAttribute="top" id="IWG-vy-cd4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bz2-Au-HF6" secondAttribute="bottom" constant="453" id="K8j-37-F12"/>
+                            <constraint firstItem="meD-xg-yQP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OCg-E3-NtC"/>
+                            <constraint firstAttribute="trailing" secondItem="meD-xg-yQP" secondAttribute="trailing" id="Vuc-H9-GEP"/>
+                            <constraint firstItem="osI-wb-Vqa" firstAttribute="top" secondItem="cwx-3a-FRO" secondAttribute="top" id="Xtx-dg-gsB"/>
+                            <constraint firstItem="MzV-en-28W" firstAttribute="top" secondItem="osI-wb-Vqa" secondAttribute="top" id="bTJ-Ik-s6q"/>
+                            <constraint firstItem="Bz2-Au-HF6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="102" id="oeZ-Zl-sy6"/>
+                            <constraint firstItem="osI-wb-Vqa" firstAttribute="leading" secondItem="MzV-en-28W" secondAttribute="trailing" constant="8" symbolic="YES" id="rlO-pB-Ey7"/>
+                            <constraint firstItem="MzV-en-28W" firstAttribute="leading" secondItem="Bz2-Au-HF6" secondAttribute="trailing" constant="8" symbolic="YES" id="smP-cY-b8o"/>
+                            <constraint firstItem="Bz2-Au-HF6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="vDM-nV-gSS"/>
+                            <constraint firstItem="cwx-3a-FRO" firstAttribute="leading" secondItem="osI-wb-Vqa" secondAttribute="trailing" constant="8" symbolic="YES" id="yed-la-M4h"/>
+                            <constraint firstItem="MzV-en-28W" firstAttribute="baseline" secondItem="osI-wb-Vqa" secondAttribute="firstBaseline" id="zHS-cc-KnX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rEg-Hc-rXt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480.80000000000001" y="122.78860569715144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oZY-wg-Ior">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HNP-AI-VMJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LgN-hv-5VR">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6dl-WM-diw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cs5-l6-s7t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-201" y="123"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background-cover2" width="1200" height="900"/>
+    </resources>
+</document>
