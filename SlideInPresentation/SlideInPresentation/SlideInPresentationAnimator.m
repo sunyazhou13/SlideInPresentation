@@ -8,7 +8,7 @@
 
 #import "SlideInPresentationAnimator.h"
 
-@interface SlideInPresentationManager () 
+@interface SlideInPresentationAnimator ()
 
 @end
 

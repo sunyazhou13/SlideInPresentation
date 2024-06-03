@@ -10,9 +10,9 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, PresentationDirection){
-    PresentationDirectionLeft = 1,
-    PresentationDirectionRight = 2,
-    PresentationDirectionTop = 3,
+    PresentationDirectionLeft   = 1,
+    PresentationDirectionRight  = 2,
+    PresentationDirectionTop    = 3,
     PresentationDirectionBottom = 4
 };
 
