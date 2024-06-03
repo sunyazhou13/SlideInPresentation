@@ -46,6 +46,9 @@
     self.slideInTransitioningDelegate.direction = direction;
     self.slideInTransitioningDelegate.disableCompactHeight = NO;
     self.slideInTransitioningDelegate.sliderRate = 1.0/3.0;
+    self.slideInTransitioningDelegate.dismissCompletion = ^{
+        NSLog(@"点击dismiss 完成!");
+    };
     
     //创建控制器实例
     PresentController *presentVC = [[PresentController alloc] initWithNibName:@"PresentController" bundle:[NSBundle mainBundle]];

@@ -156,7 +156,7 @@
 #pragma mark -
 #pragma mark - event response 所有触发的事件响应 按钮、通知、分段控件等
 - (void)handleTap:(UIGestureRecognizer *)tapGesture {
-    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:self.dismissCompletion];
 }
 
 @end

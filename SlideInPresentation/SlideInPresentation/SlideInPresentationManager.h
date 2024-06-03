@@ -45,6 +45,10 @@ typedef NS_ENUM(NSInteger, PresentationDirection){
  */
 @property(nonatomic, assign) BOOL showDimView;
 
+/**
+ 点击dim位置 vc dismiss完成 回调
+ */
+@property (nonatomic, copy) void (^ __nullable dismissCompletion)(void);
 
 /**
  暗影后边的containView是否全屏 如果不是全屏 则跟随 控制器的范围显示

@@ -35,6 +35,7 @@
     presentationController.sliderRate = self.sliderRate;
     presentationController.showDimView = self.showDimView;
     presentationController.containerViewSizeToFit = self.containerViewSizeToFit;
+    presentationController.dismissCompletion = self.dismissCompletion; 
     return presentationController;
 }
 

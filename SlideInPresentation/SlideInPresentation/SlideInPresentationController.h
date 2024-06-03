@@ -26,14 +26,17 @@
  */
 @property(nonatomic, assign) BOOL showDimView;
 
+/**
+ 当showDimView出现,点击黑色遮挡视图,dismiss ViewController完成回调
+ */
+@property (nonatomic, copy) void (^ __nullable dismissCompletion)(void);
 
 /**
  背景容器视图是否自适应弹出的控制器视图大小 默认:NO
  */
 @property(nonatomic, assign) BOOL containerViewSizeToFit;
 
-
-- (instancetype)initWithPresentedViewController:(UIViewController *)presented
-                       presentingViewController:(UIViewController *)presenting
-                                   andDirection:(PresentationDirection)direction;
+- (nonnull instancetype)initWithPresentedViewController:(nullable UIViewController *)presented
+                               presentingViewController:(nullable UIViewController *)presenting
+                                           andDirection:(PresentationDirection)direction;
 @end
