@@ -3,7 +3,7 @@
 //  Nemo
 //
 //  Created by sunyazhou on 2017/6/9.
-//  Copyright © 2017年 com.ksyun. All rights reserved.
+//  Copyright © 2017年 com.sunyazhou All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -153,10 +153,23 @@
     }
 }
 
+- (void)setDimBackgroundColor:(UIColor *)dimBackgroundColor
+{
+    _dimBackgroundColor = dimBackgroundColor;
+    if (self.dimmingView) {
+        self.dimmingView.backgroundColor = dimBackgroundColor;
+    }
+}
+
 #pragma mark -
 #pragma mark - event response 所有触发的事件响应 按钮、通知、分段控件等
 - (void)handleTap:(UIGestureRecognizer *)tapGesture {
     [self.presentingViewController dismissViewControllerAnimated:YES completion:self.dismissCompletion];
+}
+
+- (void)forceDismiss
+{
+    [self handleTap:nil];
 }
 
 @end

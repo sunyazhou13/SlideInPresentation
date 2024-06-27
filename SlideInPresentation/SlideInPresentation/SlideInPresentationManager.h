@@ -3,7 +3,7 @@
 //  Nemo
 //
 //  Created by sunyazhou on 2017/6/9.
-//  Copyright © 2017年 com.ksyun. All rights reserved.
+//  Copyright © 2017年 com.sunyazhou. All rights reserved.
 //  本章用到的知识点请点击https://www.raywenderlich.com/139277/uipresentationcontroller-tutorial-getting-started查看
 
 #import <Foundation/Foundation.h>
@@ -57,7 +57,16 @@ typedef NS_ENUM(NSInteger, PresentationDirection){
  */
 @property(nonatomic, assign) BOOL containerViewSizeToFit;
 
+/**
+ 黑色遮挡部分背景颜色
+ */
+@property (nonatomic, strong, nullable) UIColor *dimBackgroundColor;
 
+/**
+ 外部强制dismiss弹出的VC
+ needCallCompletionBlock: 是否要回调dismissCompletion block;
+ */
+- (void)forceDismiss:(BOOL)needCallCompletionBlock;
 
 @end
 

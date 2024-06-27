@@ -3,7 +3,7 @@
 //  Nemo
 //
 //  Created by sunyazhou on 2017/6/9.
-//  Copyright © 2017年 com.ksyun. All rights reserved.
+//  Copyright © 2017年 com.sunyazhou. All rights reserved.
 //
 
 #import "SlideInPresentationAnimator.h"
